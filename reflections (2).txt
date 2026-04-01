@@ -1,0 +1,29 @@
+TASK 1
+1. Subtraction did b - a instead of a - b. Multiply was called multiple instead. Prime had everything above 2 set to false
+which invalidated the actual calculations. Is even had %2 == 1 instead of 0. Fizzbuzz had an unnecessary is_even statement
+and returned false under the true conditions. Running the tests helped debug the problems by helping me pinpoint exactly
+which functions to be looking in.
+2. Fizzbuzz because it didn't show up in the test and prime and even because it was a more complex code issue.
+3. The tests in test_calculator can be improved by adding a proper fizzbuzz test and adding more tests the address
+edge cases.
+4. Have used them in classes pretty frequently. Just used JUnit. No prior experience with pytest.
+
+TASK 2
+1. A bunch of the functions that weren't tested at all like get_percentile, get_win_rate, and apply_bonus, because now it's 
+not just about edge cases or errors messages, the logic itself could be wrong.
+2. The branch coverage of the updated test suite is 85%. I would modify the test cases to test more possible error branches
+and not just the normal working case for all of them.
+3. Not necessarily. It would help me better understand what I have and haven't tested but I don't believe it would point out the bugs.
+4. It would make finding bugs in my code significantly faster and easier. It would also ensure that my code is more correct
+and if I am properly testing all possible outcomes.
+
+TASK 3
+1. The prompt I used was "generate pytest test suite for quiz.py that covers edge cases as well and tries to get at least 85% code 
+coverage." The prompt could be improved by being more specific and clear about what I wanted tested and how I want everything 
+formatted. I would do a better job of describing my functions and what I want tested because the model just ended up make random functions that don't exist
+like check_answer().
+2. It did a good job formatting the tests and considering edge cases. It struggles with making the tests relevant to the actual code and what I wanted to test. I personally would not accept this to test this system because it doesn't even come close to actually testing all the logic unfortunately.
+3. The tests fail immediately because they try to import functions that don't exist, so I was unable to properly assess code coverage.
+4. I've done an "internship" where I got to use and play around with agentic ai. I also have used chatgpt and other AI tools such as 
+Claude to come up with tests for classes as well. Often times they work well but human oversight is definitely needed to adjust code 
+coverage or edge cases.
